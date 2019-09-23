@@ -2,6 +2,8 @@ body {
   font-family: "Source Sans Pro", sans serif;
   font-weight: regular;
   color: #2a2a29;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a:visited {
@@ -19,7 +21,7 @@ a:visited {
   top: 0;
   margin-top: 200px;
   margin-bottom: 10px;
-  margin-right: 10px;
+  margin-right: 13%;
   transform: rotate(90deg);
   text-align: center;
 }
@@ -50,6 +52,15 @@ a:visited {
 
 #phone {
   margin: 0 0 0 25px;
+  color: #2a2a29;
+}
+
+#phone a {
+  color: #2a2a29;
+}
+
+#phone:hover {
+  text-decoration: underline;
 }
 
 #phone, #email {
@@ -88,7 +99,7 @@ a:visited {
   left: 0;
   z-index: 1;
   overflow-x: visible;
-  margin-left: 60px;
+  margin-left: 12%;
 }
 
 #logo {
@@ -368,7 +379,15 @@ a:visited {
 
 @media screen and (max-width:1200px) {
 
+  .sidenav-right {
+  margin-right: 10px;
+}
+
   /* LEFT NAVBAR WITH LOGO */
+
+  .sidenav-left {
+    margin-left: 60px;
+  }
 
   #logo {
     width: 225px;
