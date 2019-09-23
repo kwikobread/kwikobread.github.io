@@ -29,10 +29,10 @@ h4 {
 
 .year {
   font-weight: bold;
-  color: #2a2a29;
+  color: #2a2a29 !important;
   font-size: 0.75em;
-  pointer-events: none;
-  text-decoration: none;
+  pointer-events: none !important!;
+  text-decoration: none !important;
 }
 
 .location {
