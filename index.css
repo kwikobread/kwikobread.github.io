@@ -185,6 +185,40 @@ a:visited {
 }
 
 
+/* KIM BOISJOLY photos */
+
+#kim-logo {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 16px;
+}
+
+#kim-web {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 16px;
+}
+
+#kim-cards {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 16px;
+}
+
+#kim-letter {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 16px;
+}
+
 
 /* MARATHON photos */
 
@@ -240,6 +274,46 @@ a:visited {
   grid-row-end: 12;
   margin-bottom: 80px;
 }
+
+
+/* KAPITEL ZWEI photos */
+
+#kapitel-logo {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 16;
+  grid-row-end: 17;
+}
+
+#kapitel-bottle {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 16;
+  grid-row-end: 17;
+}
+
+#kapitel-anim {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 16;
+  grid-row-end: 17;
+}
+
+#kapitel-glass {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 16;
+  grid-row-end: 17;
+}
+
+#kapitel-stamp {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 16;
+  grid-row-end: 17;
+  margin-bottom: 80px;
+}
+
 
 /* GAB DESMARCHAIS photos */
 
