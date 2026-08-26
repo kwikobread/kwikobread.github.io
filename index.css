@@ -138,13 +138,6 @@ a:visited {
 
 /* KAPITEL ZWEI photos*/
 
-#kapitel-logo {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 3;
-  grid-row-end: 4;
-} 
-
 #kapitel-bottle {
   grid-column-start: 1;
   grid-column-end: 13;
@@ -152,11 +145,11 @@ a:visited {
   grid-row-end: 2;
 } 
 
-#kapitel-anim {
+#kapitel-logo {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
 } 
 
 #kapitel-glass {
@@ -171,6 +164,13 @@ a:visited {
   grid-column-end: 13;
   grid-row-start: 5;
   grid-row-end: 6;
+} 
+
+#kapitel-anim {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 7;
+  grid-row-end: 8;
   margin-bottom: 80px;
 } 
 
