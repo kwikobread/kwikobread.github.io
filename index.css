@@ -136,35 +136,35 @@ a:visited {
 
 
 
-/* KAPITEL ZWEI photos
+/* KAPITEL ZWEI photos*/
 
 #kapitel-logo {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 1;
   grid-row-end: 2;
-}
+} 
 
 #kapitel-bottle {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 4;
-}
+} 
 
 #kapitel-anim {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 5;
   grid-row-end: 6;
-}
+} 
 
 #kapitel-glass {
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 7;
   grid-row-end: 8;
-} */
+}
 
 #kapitel-stamp {
   grid-column-start: 7;
