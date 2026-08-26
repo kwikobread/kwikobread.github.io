@@ -206,7 +206,7 @@ h4 {
 
 #autonome {
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 6;
   grid-row-start: 6;
   grid-row-end: 7;
   
@@ -236,7 +236,7 @@ h4 {
 
 #paragon {
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 6;
   grid-row-start: 8;
   grid-row-end: 9;
 
@@ -256,7 +256,7 @@ h4 {
 
 #education {
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 6;
   grid-row-start: 10;
   grid-row-end: 11;
 
