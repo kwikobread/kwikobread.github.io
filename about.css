@@ -192,6 +192,16 @@ h4 {
   text-align: left;
 }
 
+#dailymotion {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #ulule {
   grid-column-start: 1;
   grid-column-end: 7;
@@ -255,6 +265,16 @@ h4 {
 
 
 #esag {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 12;
+  grid-row-end: 13;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#ideo {
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 12;
