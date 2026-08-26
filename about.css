@@ -158,7 +158,7 @@ h4 {
   margin: 102px 25% 0 25%;
 }
 
-#photo {
+.photo {
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 1;
