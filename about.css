@@ -161,8 +161,8 @@ h4 {
 #photo {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .intro {
@@ -172,8 +172,8 @@ h4 {
 
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 
   z-index: 300;
 }
