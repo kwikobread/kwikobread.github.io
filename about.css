@@ -177,7 +177,7 @@ h4 {
 
 #photo {
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 2;
 }
@@ -205,42 +205,42 @@ h4 {
   text-align: left;
 }
 
-#dailymotion {
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 7;
-  grid-row-end: 8;
-  
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#ulule {
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 7;
-  grid-row-end: 8;
-  
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#paragon {
-  grid-column-start: 7;
-  grid-column-end: 13;
-  grid-row-start: 6;
-  grid-row-end: 7;
-
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 #autonome {
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 6;
   grid-row-end: 7;
   
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#dailymotion {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#ulule {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#paragon {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 8;
+  grid-row-end: 9;
+
   margin-top: 0;
   margin-bottom: 0;
 }
