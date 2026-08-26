@@ -148,29 +148,29 @@ a:visited {
 #kapitel-bottle {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 #kapitel-anim {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 
 #kapitel-glass {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
 }
 
 #kapitel-stamp {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row-start: 7;
+  grid-row-end: 8;
   margin-bottom: 80px;
 }
 
@@ -180,32 +180,32 @@ a:visited {
 #kim-logo {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  grid-row-start: 9;
+  grid-row-end: 10;
   margin-bottom: 16px;
 }
 
 #kim-web {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 11;
+  grid-row-end: 12;
   margin-bottom: 16px;
 }
 
 #kim-cards {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 13;
+  grid-row-end: 14;
   margin-bottom: 16px;
 }
 
 #kim-letter {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 8;
-  grid-row-end: 9;
+  grid-row-start: 15;
+  grid-row-end: 16;
   margin-bottom: 16px;
 }
 
@@ -216,47 +216,47 @@ a:visited {
 #poesie-red {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 9;
-  grid-row-end: 10;
+  grid-row-start: 17;
+  grid-row-end: 18;
   margin-bottom: 16px;
 }
 
 #poesie-booklet {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 10;
-  grid-row-end: 11;
+  grid-row-start: 19;
+  grid-row-end: 20;
   margin-bottom: 8px;
 }
 
 #poesie-purple {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 11;
-  grid-row-end: 12;
+  grid-row-start: 21;
+  grid-row-end: 22;
 }
 
 #poesie-yellow {
   grid-column-start: 1;
   grid-column-end: 5;
-  grid-row-start: 12;
-  grid-row-end: 13;
+  grid-row-start: 23;
+  grid-row-end: 24;
   margin-bottom: 80px;
 }
 
 #poesie-blue {
   grid-column-start: 5;
   grid-column-end: 9;
-  grid-row-start: 12;
-  grid-row-end: 13;
+  grid-row-start: 23;
+  grid-row-end: 24;
   margin-bottom: 80px;
 }
 
 #poesie-green {
   grid-column-start: 9;
   grid-column-end: 13;
-  grid-row-start: 12;
-  grid-row-end: 13;
+  grid-row-start: 23;
+  grid-row-end: 24;
   margin-bottom: 80px;
 }
 
@@ -268,31 +268,31 @@ a:visited {
   margin-top: 25px;
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 25;
+  grid-row-end: 26;
 }
 
 #flyer-two {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 27;
+  grid-row-end: 28;
   margin-bottom: 10px;
 }
 
 #flyer-poland {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 27;
+  grid-row-end: 28;
   margin-bottom: 10px;
 }
 
 #flyer-collage {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 8;
-  grid-row-end: 9;
+  grid-row-start: 29;
+  grid-row-end: 30;
   margin-bottom: 80px;
 }
 
@@ -301,8 +301,8 @@ a:visited {
 #trump-poster {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 10;
-  grid-row-end: 12;
+  grid-row-start: 31;
+  grid-row-end: 32;
   margin-bottom: 80px;
 }
 
@@ -313,8 +313,8 @@ a:visited {
 #bible-clou {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 14;
-  grid-row-end: 15;
+  grid-row-start: 33;
+  grid-row-end: 34;
   margin-top: 10px;
 }
 
@@ -322,22 +322,22 @@ a:visited {
   margin-top: -20px;
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 15;
-  grid-row-end: 16;
+  grid-row-start: 35;
+  grid-row-end: 36;
 }
 
 #bible-closed {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 16;
-  grid-row-end: 17;
+  grid-row-start: 37;
+  grid-row-end: 38;
 }
 
 #bible-collage {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 16;
-  grid-row-end: 17;
+  grid-row-start: 37;
+  grid-row-end: 38;
   margin-bottom: 80px;
 }
 
@@ -346,44 +346,44 @@ a:visited {
 #chassepeche-knife {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 17;
-  grid-row-end: 18;
+  grid-row-start: 39;
+  grid-row-end: 40;
 }
 
 #chassepeche-cutting {
   margin-top: -30px;
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 18;
-  grid-row-end: 19;
+  grid-row-start: 41;
+  grid-row-end: 42;
 }
 
 #chassepeche-table {
   grid-column-start: 1;
   grid-column-end: 6;
-  grid-row-start: 19;
-  grid-row-end: 20;
+  grid-row-start: 43;
+  grid-row-end: 44;
 }
 
 #chassepeche-wolf {
   grid-column-start: 6;
   grid-column-end: 13;
-  grid-row-start: 19;
-  grid-row-end: 20;
+  grid-row-start: 43;
+  grid-row-end: 44;
 }
 
 #chassepeche-blue03 {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 21;
-  grid-row-end: 22;
+  grid-row-start: 45;
+  grid-row-end: 46;
 }
 
 #chassepeche-blue02 {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 22;
-  grid-row-end: 23;
+  grid-row-start: 47;
+  grid-row-end: 48;
 
   margin-bottom: 8px;
   margin-top: -4px;
@@ -392,8 +392,8 @@ a:visited {
 #chassepeche-blue01 {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 23;
-  grid-row-end: 24;
+  grid-row-start: 49;
+  grid-row-end: 50;
   margin-bottom: 80px;
 }
 
@@ -402,16 +402,16 @@ a:visited {
 #hands-duo {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 27;
-  grid-row-end: 28;
+  grid-row-start: 51;
+  grid-row-end: 52;
 }
 
 #hands-text {
   margin-top: -5px;
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 28;
-  grid-row-end: 29;
+  grid-row-start: 53;
+  grid-row-end: 54;
 }
 
 
