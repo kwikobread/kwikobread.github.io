@@ -142,7 +142,7 @@ a:visited {
 .gallery img {
   width: 100%;
   object-fit: cover;
-  margin-bottom: 12px; 
+  margin-bottom: 10px; 
 }
 
 
@@ -182,130 +182,180 @@ a:visited {
   grid-column-end: 13;
   grid-row-start: 7;
   grid-row-end: 8;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 } 
 
 
 /* DAILYMOTION photos */
 
-#daily-billboard {
+#daily-insta {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 9;
   grid-row-end: 10;
 }
 
+#daily-lunch {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+
 #daily-merch {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 11;
-  grid-row-end: 12;
+  grid-row-start: 13;
+  grid-row-end: 14;
 }
 
 #daily-laptop {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 11;
-  grid-row-end: 12;
-}
-
-#daily-lunch {
-  grid-column-start: 1;
-  grid-column-end: 13;
   grid-row-start: 13;
   grid-row-end: 14;
-  margin-bottom: 80px;
 }
 
-
-/* KIM BOISJOLY photos */
-
-#kim-logo {
+#daily-billboard {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 15;
   grid-row-end: 16;
 }
 
+#daily-prez {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 17;
+  grid-row-end: 18;
+}
+
+#daily-wallpaper {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 17;
+  grid-row-end: 18;
+}
+
+#daily-linkedin {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 17;
+  grid-row-end: 18;
+}
+
+#daily-reel {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 19;
+  grid-row-end: 20;
+  margin-bottom: 100px;
+  width: 100%; 
+}
+
+#daily-reel video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* KIM BOISJOLY photos */
+
+#kim-logo {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 20;
+  grid-row-end: 21;
+}
+
 #kim-web {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 16;
-  grid-row-end: 18;
+  grid-row-start: 22;
+  grid-row-end: 23;
 }
 
 #kim-cards {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 19;
-  grid-row-end: 20;
+  grid-row-start: 24;
+  grid-row-end: 25;
 }
 
 #kim-letter {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 21;
-  grid-row-end: 22;
-  margin-bottom: 80px;
+  grid-row-start: 26;
+  grid-row-end: 27;
+  margin-bottom: 100px;
 }
 
+
+/* MARKET AMQUI photos */
+
+#market-pole {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 28;
+  grid-row-end: 29;
+  object-fit: cover;
+}
+
+#market-banner {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 30;
+  grid-row-end: 31;
+  object-fit: cover;
+}
+
+#market-poster {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 31;
+  grid-row-end: 32;
+  object-fit: cover;
+}
+
+#market-tote {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 31;
+  grid-row-end: 32;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
 
 /* POESIE photos */
 
 #poesie-red {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 23;
-  grid-row-end: 24;
+  grid-row-start: 33;
+  grid-row-end: 34;
   margin-bottom: 10px;
 }
 
 #poesie-booklet {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 25;
-  grid-row-end: 26;
+  grid-row-start: 35;
+  grid-row-end: 36;
   margin-bottom: 0px;
 }
 
 #poesie-purple {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 60px;
-}
-
-/*
-
-#poesie-yellow {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 27;
-  grid-row-end: 28;
+  grid-row-start: 37;
+  grid-row-end: 38;
   margin-bottom: 80px;
 }
 
-#poesie-blue {
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 80px;
-}
-
-#poesie-green {
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 80px;
-}
-
-*/
 
 /* FLYER photos */
 
+/*
 #flyer-open {
   grid-column-start: 1;
   grid-column-end: 8;
@@ -329,170 +379,84 @@ a:visited {
   grid-row-end: 34;
   margin-bottom: 40px;
 }
+*/
+
 
 /* POSTER FOR PEACE photos */
 
 #trump-poster {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 80px;
+  grid-row-start: 42;
+  grid-row-end: 43;
+  margin-bottom: 100px;
 }
 
-/* BIBLE photos */
-
-/*
-#bible-whole {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 80px;
-  
-}
-
-#bible-clou {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 33;
-  grid-row-end: 34;
-  margin-top: 10px;
-}
-
-
-#bible-closed {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 10px;
-  
-}
-
-#bible-canard {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
-  margin-bottom: 80px;
-}
-
-#bible-collage {
-  grid-column-start: 7;
-  grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
-  margin-bottom: 80px;
-}*/
 
 /* PIGEON photos */
 
 #pigeon-sketch {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 37;
-  grid-row-end: 38;
+  grid-row-start: 44;
+  grid-row-end: 45;
 }
 
 #pigeon-bw {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
+  grid-row-start: 44;
+  grid-row-end: 45;
 }
 
 #pigeon-sticker {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 39;
-  grid-row-end: 40;
+  grid-row-start: 46;
+  grid-row-end: 47;
 }
 
 #pigeon-cup {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 39;
-  grid-row-end: 40;
-  margin-bottom: 80px;
+  grid-row-start: 46;
+  grid-row-end: 47;
+  margin-bottom: 100px;
 }
 
 
 /* CHASSE-PECHE photos */
 
-/*
-#chassepeche-knife {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 39;
-  grid-row-end: 40;
-}
-*/
-
 #chassepeche-cutting {
   margin-top: 0px;
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 41;
-  grid-row-end: 42;
+  grid-row-start: 48;
+  grid-row-end: 49;
 }
 
 #chassepeche-table {
   grid-column-start: 1;
   grid-column-end: 6;
-  grid-row-start: 43;
-  grid-row-end: 44;
+  grid-row-start: 50;
+  grid-row-end: 51;
 }
 
 #chassepeche-wolf {
   grid-column-start: 6;
   grid-column-end: 13;
-  grid-row-start: 43;
-  grid-row-end: 44;
-}
-
-#chassepeche-blue03 {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 45;
-  grid-row-end: 46;
+  grid-row-start: 50;
+  grid-row-end: 51;
 }
 
 #chassepeche-blue01 {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 47;
-  grid-row-end: 48;
-  margin-bottom: 80px;
+  grid-row-start: 52;
+  grid-row-end: 53;
+  margin-bottom: 50px;
 }
 
-#chassepeche-blue02 {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 49;
-  grid-row-end: 50;
-  margin-bottom: 80px;
-}
-
-
-/* HYMNE photos */
-
-/*
-#hands-duo {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 51;
-  grid-row-end: 52;
-}
-
-#hands-text {
-  margin-top: -5px;
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 53;
-  grid-row-end: 54;
-}
-*/
 
 
 
@@ -523,7 +487,9 @@ a:visited {
     margin: 150px 17% 0 17%;
   }
 
-  /* KAPITEL ZWEI photos*/
+
+
+/* KAPITEL ZWEI photos*/
 
 #kapitel-bottle {
   grid-column-start: 1;
@@ -556,15 +522,22 @@ a:visited {
 #kapitel-anim {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 9;
-  grid-row-end: 10;
-  margin-bottom: 80px;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  margin-bottom: 100px;
 } 
 
 
 /* DAILYMOTION photos */
 
-#daily-billboard {
+#daily-insta {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+
+#daily-lunch {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 11;
@@ -573,122 +546,163 @@ a:visited {
 
 #daily-merch {
   grid-column-start: 1;
-  grid-column-end: 13;
+  grid-column-end: 7;
   grid-row-start: 13;
   grid-row-end: 14;
 }
 
 #daily-laptop {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 13;
+  grid-row-end: 14;
+}
+
+#daily-billboard {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 15;
   grid-row-end: 16;
 }
 
-#daily-lunch {
+#daily-prez {
   grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 17;
+  grid-row-end: 18;
+}
+
+#daily-wallpaper {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 17;
+  grid-row-end: 18;
+}
+
+#daily-linkedin {
+  grid-column-start: 9;
   grid-column-end: 13;
   grid-row-start: 17;
   grid-row-end: 18;
-  margin-bottom: 80px;
 }
 
+#daily-reel {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 19;
+  grid-row-end: 20;
+  margin-bottom: 100px;
+  width: 100%; 
+}
+
+#daily-reel video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* KIM BOISJOLY photos */
 
 #kim-logo {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 19;
-  grid-row-end: 20;
+  grid-row-start: 20;
+  grid-row-end: 21;
 }
 
 #kim-web {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 21;
-  grid-row-end: 22;
+  grid-row-start: 22;
+  grid-row-end: 23;
 }
 
 #kim-cards {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 23;
-  grid-row-end: 24;
+  grid-row-start: 24;
+  grid-row-end: 25;
 }
 
 #kim-letter {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 25;
-  grid-row-end: 26;
-  margin-bottom: 80px;
+  grid-row-start: 26;
+  grid-row-end: 27;
+  margin-bottom: 100px;
 }
 
+
+/* MARKET AMQUI photos */
+
+#market-pole {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 28;
+  grid-row-end: 29;
+  object-fit: cover;
+}
+
+#market-banner {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 30;
+  grid-row-end: 31;
+  object-fit: cover;
+}
+
+#market-poster {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 31;
+  grid-row-end: 32;
+  object-fit: cover;
+}
+
+#market-tote {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 31;
+  grid-row-end: 32;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
 
 /* POESIE photos */
 
 #poesie-red {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 27;
-  grid-row-end: 28;
+  grid-row-start: 33;
+  grid-row-end: 34;
   margin-bottom: 10px;
 }
 
 #poesie-booklet {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 29;
-  grid-row-end: 30;
-
+  grid-row-start: 35;
+  grid-row-end: 36;
   margin-bottom: 0px;
 }
 
 #poesie-purple {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 31;
-  grid-row-end: 32;
-
-  margin-bottom: 60px;
-}
-
-/*
-
-#poesie-yellow {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 27;
-  grid-row-end: 28;
+  grid-row-start: 37;
+  grid-row-end: 38;
   margin-bottom: 80px;
 }
 
-#poesie-blue {
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 80px;
-}
-
-#poesie-green {
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 80px;
-}
-
-*/
 
 /* FLYER photos */
 
+/*
 #flyer-open {
   grid-column-start: 1;
   grid-column-end: 8;
-  grid-row-start: 33;
-  grid-row-end: 34;
+  grid-row-start: 31;
+  grid-row-end: 32;
   object-fit: cover;
 }
 
@@ -707,149 +721,82 @@ a:visited {
   grid-row-end: 34;
   margin-bottom: 40px;
 }
+*/
+
 
 /* POSTER FOR PEACE photos */
 
 #trump-poster {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 80px;
+  grid-row-start: 42;
+  grid-row-end: 43;
+  margin-bottom: 100px;
 }
 
-/* BIBLE photos */
-
-/*
-#bible-whole {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 80px;
-  
-}
-
-#bible-clou {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 33;
-  grid-row-end: 34;
-  margin-top: 10px;
-}
-
-
-#bible-closed {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 10px;
-  
-}
-
-#bible-canard {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
-  margin-bottom: 80px;
-}
-
-#bible-collage {
-  grid-column-start: 7;
-  grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
-  margin-bottom: 80px;
-}*/
 
 /* PIGEON photos */
 
 #pigeon-sketch {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 37;
-  grid-row-end: 38;
+  grid-row-start: 44;
+  grid-row-end: 45;
 }
 
 #pigeon-bw {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
+  grid-row-start: 44;
+  grid-row-end: 45;
 }
 
 #pigeon-sticker {
   grid-column-start: 1;
   grid-column-end: 7;
-  grid-row-start: 39;
-  grid-row-end: 40;
+  grid-row-start: 46;
+  grid-row-end: 47;
 }
 
 #pigeon-cup {
   grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 39;
-  grid-row-end: 40;
-  margin-bottom: 80px;
+  grid-row-start: 46;
+  grid-row-end: 47;
+  margin-bottom: 100px;
 }
 
 
 /* CHASSE-PECHE photos */
 
-/*
-#chassepeche-knife {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 39;
-  grid-row-end: 40;
-}
-*/
-
 #chassepeche-cutting {
   margin-top: 0px;
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 45;
-  grid-row-end: 46;
+  grid-row-start: 48;
+  grid-row-end: 49;
 }
 
 #chassepeche-table {
   grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 47;
-  grid-row-end: 48;
+  grid-column-end: 6;
+  grid-row-start: 50;
+  grid-row-end: 51;
 }
 
 #chassepeche-wolf {
-  grid-column-start: 1;
+  grid-column-start: 6;
   grid-column-end: 13;
-  grid-row-start: 49;
-  grid-row-end: 50;
-}
-
-#chassepeche-blue03 {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 51;
-  grid-row-end: 52;
+  grid-row-start: 50;
+  grid-row-end: 51;
 }
 
 #chassepeche-blue01 {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 53;
-  grid-row-end: 54;
-  margin-bottom: 40px;
-}
-
-#chassepeche-blue02 {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 55;
-  grid-row-end: 56;
-  margin-bottom: 40px;
+  grid-row-start: 52;
+  grid-row-end: 53;
+  margin-bottom: 50px;
 }
 
 
@@ -914,11 +861,17 @@ a:visited {
   /* CENTER PART WITH IMAGES */
 
   .gallery {
-    grid-column-gap: 12px;
+    grid-column-gap: 6px;
     margin: 52px 17% 0 17%;
   }
 
-  /* KAPITEL ZWEI photos*/
+  .gallery img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2px; 
+}
+
+/* KAPITEL ZWEI photos*/
 
 #kapitel-bottle {
   grid-column-start: 1;
@@ -951,15 +904,22 @@ a:visited {
 #kapitel-anim {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 9;
-  grid-row-end: 10;
+  grid-row-start: 7;
+  grid-row-end: 8;
   margin-bottom: 50px;
 } 
 
 
 /* DAILYMOTION photos */
 
-#daily-billboard {
+#daily-insta {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+
+#daily-lunch {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 11;
@@ -980,111 +940,151 @@ a:visited {
   grid-row-end: 16;
 }
 
-#daily-lunch {
+#daily-billboard {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 17;
   grid-row-end: 18;
-  margin-bottom: 50px;
 }
 
-
-/* KIM BOISJOLY photos */
-
-#kim-logo {
+#daily-prez {
   grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 19;
+  grid-row-end: 20;
+}
+
+#daily-wallpaper {
+  grid-column-start: 7;
   grid-column-end: 13;
   grid-row-start: 19;
   grid-row-end: 20;
 }
 
-#kim-web {
+#daily-linkedin {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 21;
   grid-row-end: 22;
 }
 
+#daily-reel {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 22;
+  grid-row-end: 23;
+  margin-bottom: 50px;
+  width: 100%; 
+}
+
+#daily-reel video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* KIM BOISJOLY photos */
+
+#kim-logo {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 24;
+  grid-row-end: 25;
+}
+
+#kim-web {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 26;
+  grid-row-end: 27;
+}
+
 #kim-cards {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 23;
-  grid-row-end: 24;
+  grid-row-start: 28;
+  grid-row-end: 29;
 }
 
 #kim-letter {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 25;
-  grid-row-end: 26;
+  grid-row-start: 30;
+  grid-row-end: 31;
   margin-bottom: 50px;
 }
 
+
+/* MARKET AMQUI photos */
+
+#market-pole {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 32;
+  grid-row-end: 33;
+  object-fit: cover;
+}
+
+#market-banner {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 34;
+  grid-row-end: 35;
+  object-fit: cover;
+}
+
+#market-poster {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 36;
+  grid-row-end: 37;
+  object-fit: cover;
+}
+
+#market-tote {
+  grid-column-start: 7;
+  grid-column-end: 13;
+  grid-row-start: 36;
+  grid-row-end: 37;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
 
 /* POESIE photos */
 
 #poesie-red {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 27;
-  grid-row-end: 28;
-
-  margin-bottom: -5px;
+  grid-row-start: 38;
+  grid-row-end: 39;
+  margin-bottom: 10px;
 }
 
 #poesie-booklet {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 29;
-  grid-row-end: 30;
-
-  margin-bottom: -5px;
+  grid-row-start: 40;
+  grid-row-end: 41;
+  margin-bottom: 8px;
 }
 
 #poesie-purple {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 31;
-  grid-row-end: 32;
-
-  margin-bottom: 30px;
+  grid-row-start: 42;
+  grid-row-end: 43;
+  margin-bottom: 50px;
 }
 
-/*
-
-#poesie-yellow {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 80px;
-}
-
-#poesie-blue {
-  grid-column-start: 5;
-  grid-column-end: 9;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 80px;
-}
-
-#poesie-green {
-  grid-column-start: 9;
-  grid-column-end: 13;
-  grid-row-start: 27;
-  grid-row-end: 28;
-  margin-bottom: 80px;
-}
-
-*/
 
 /* FLYER photos */
 
+/*
 #flyer-open {
   grid-column-start: 1;
   grid-column-end: 8;
-  grid-row-start: 33;
-  grid-row-end: 34;
+  grid-row-start: 31;
+  grid-row-end: 32;
   object-fit: cover;
 }
 
@@ -1103,149 +1103,77 @@ a:visited {
   grid-row-end: 34;
   margin-bottom: 40px;
 }
+*/
+
 
 /* POSTER FOR PEACE photos */
 
 #trump-poster {
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-
+  grid-row-start: 44;
+  grid-row-end: 45;
   margin-bottom: 50px;
 }
 
-/* BIBLE photos */
-
-/*
-#bible-whole {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 80px;
-  
-}
-
-#bible-clou {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 33;
-  grid-row-end: 34;
-  margin-top: 10px;
-}
-
-
-#bible-closed {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 35;
-  grid-row-end: 36;
-  margin-bottom: 10px;
-  
-}
-
-#bible-canard {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
-  margin-bottom: 80px;
-}
-
-#bible-collage {
-  grid-column-start: 7;
-  grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
-  margin-bottom: 80px;
-}*/
 
 /* PIGEON photos */
 
 #pigeon-sketch {
   grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 37;
-  grid-row-end: 38;
+  grid-column-end: 7;
+  grid-row-start: 46;
+  grid-row-end: 47;
 }
 
 #pigeon-bw {
-  grid-column-start: 1;
+  grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 39;
-  grid-row-end: 40;
-
-  margin-top: -10px;
-  margin-bottom: -10px;
+  grid-row-start: 46;
+  grid-row-end: 47;
 }
 
 #pigeon-sticker {
   grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 41;
-  grid-row-end: 42;
+  grid-column-end: 7;
+  grid-row-start: 48;
+  grid-row-end: 49;
 }
 
 #pigeon-cup {
-  grid-column-start: 1;
+  grid-column-start: 7;
   grid-column-end: 13;
-  grid-row-start: 43;
-  grid-row-end: 44;
-
+  grid-row-start: 48;
+  grid-row-end: 49;
   margin-bottom: 50px;
 }
 
 
 /* CHASSE-PECHE photos */
 
-/*
-#chassepeche-knife {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 39;
-  grid-row-end: 40;
-}
-*/
-
 #chassepeche-cutting {
   margin-top: 0px;
   grid-column-start: 1;
   grid-column-end: 13;
-  grid-row-start: 45;
-  grid-row-end: 46;
+  grid-row-start: 50;
+  grid-row-end: 51;
 }
 
 #chassepeche-table {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 47;
-  grid-row-end: 48;
-}
-
-#chassepeche-wolf {
-  grid-column-start: 1;
-  grid-column-end: 13;
-  grid-row-start: 49;
-  grid-row-end: 50;
-}
-
-#chassepeche-blue03 {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 51;
   grid-row-end: 52;
 }
 
-#chassepeche-blue01 {
+#chassepeche-wolf {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 53;
   grid-row-end: 54;
-  margin-bottom: 40px;
 }
 
-#chassepeche-blue02 {
+#chassepeche-blue01 {
   grid-column-start: 1;
   grid-column-end: 13;
   grid-row-start: 55;
